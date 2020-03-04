@@ -9,4 +9,10 @@
         android:id="@+id/Cfile"/>
     <item android:title="ListView"
         android:id="@+id/list"/>
+    <item android:title="RecyclerView"
+        android:id="@+id/recycle"/>
+    <item android:title="PhoneCall"
+        android:id="@+id/inte"/>
+    <item android:title="email"
+        android:id="@+id/em"/>
 </menu>
