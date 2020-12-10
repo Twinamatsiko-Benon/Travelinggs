@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Traveling.iml" filepath="$PROJECT_DIR$/../Traveling.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudioProjects-Travelinggs.iml" filepath="$PROJECT_DIR$/AndroidStudioProjects-Travelinggs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Twine-Travelinggs.iml" filepath="$PROJECT_DIR$/../Twine-Travelinggs.iml" />
     </modules>
   </component>
 </project>

@@ -13,6 +13,8 @@
         android:id="@+id/recycle"/>
     <item android:title="PhoneCall"
         android:id="@+id/inte"/>
+    <item android:id="@+id/store"
+        android:title="storage"/>
     <item android:title="email"
         android:id="@+id/em"/>
 </menu>

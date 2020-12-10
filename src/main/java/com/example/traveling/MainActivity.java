@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, recycler.class));
                 return true;
             case R.id.inte:
+            case R.id.store:
+                startActivity(new Intent(this,fivec1.class));
 
             /*    Intent intent = new Intent(Intent.ACTION_CALL);*/
                 Intent intent = new Intent(Intent.ACTION_DIAL);
