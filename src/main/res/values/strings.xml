@@ -1,20 +1,13 @@
 <resources>
     <string name="app_name">Traveling</string>
     <string name="wel">This is BENON!!</string>
-    <string name="save_as_private"
-        translatable="false">Save AS Private</string>
-    <string name="click_to_view"
-        translatable="false">Click</string>
-    <string name="save_as_public"
-        translatable="false">Save As Public</string>
-    <string name="add_text"
-        translatable="false">AddText</string>
-    <string name="show_public_data"
-        translatable="false">ShowPublicData</string>
-    <string name="show_private_data"
-        translatable="false">ShowPrivateData</string>
-    <string name="back"
-        translatable="false">Back</string>
+    <string name="save_as_private" translatable="false">Save AS Private</string>
+    <string name="click_to_view" translatable="false">Click</string>
+    <string name="save_as_public" translatable="false">Save As Public</string>
+    <string name="add_text" translatable="false">AddText</string>
+    <string name="show_public_data" translatable="false">ShowPublicData</string>
+    <string name="show_private_data" translatable="false">ShowPrivateData</string>
+    <string name="back" translatable="false">Back</string>
     <string-array name="array_technology">
         <item>Android</item>
         <item>Java</item>

@@ -17,4 +17,6 @@
         android:title="storage"/>
     <item android:title="email"
         android:id="@+id/em"/>
+    <item android:title="Services"
+        android:id="@+id/serve"/>
 </menu>

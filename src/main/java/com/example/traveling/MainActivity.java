@@ -60,16 +60,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, recycler.class));
                 return true;
             case R.id.inte:
-            case R.id.store:
-                startActivity(new Intent(this,fivec1.class));
-
             /*    Intent intent = new Intent(Intent.ACTION_CALL);*/
                 Intent intent = new Intent(Intent.ACTION_DIAL);
                 intent.setData(Uri.parse("tel:0777313062"));
 
                 startActivity(intent);
-
-
+            case R.id.store:
+                startActivity(new Intent(this,fivec1.class));
                 return true;
             case R.id.em:
                 Intent inten = new Intent(Intent.ACTION_SEND);
@@ -81,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(inten);
 
                 return true;
+            case R.id.serve:
+                startActivity(new Intent(this,TheService.class));
 
             default:
                 return true;
