@@ -33,6 +33,10 @@
         <activity android:name=".activity1" />
         <activity android:name=".DisplayMessageActivity" />
         <activity android:name=".MainActivity" />
+        <service android:name=".MyService"
+            android:enabled="true"/>
+
+
     </application>
 
 </manifest>

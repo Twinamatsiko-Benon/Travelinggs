@@ -64,7 +64,9 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
                 intent.setData(Uri.parse("tel:0777313062"));
 
+
                 startActivity(intent);
+                return true;
             case R.id.store:
                 startActivity(new Intent(this,fivec1.class));
                 return true;
