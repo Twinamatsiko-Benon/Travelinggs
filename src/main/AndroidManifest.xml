@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AnotherPage"></activity>
+        <activity android:name=".MySqlite"></activity>
+        <activity android:name=".AnotherPage" />
         <activity android:name=".TheService" />
         <activity android:name=".recycler" />
         <activity
@@ -33,10 +34,10 @@
         <activity android:name=".activity1" />
         <activity android:name=".DisplayMessageActivity" />
         <activity android:name=".MainActivity" />
-        <service android:name=".MyService"
-            android:enabled="true"/>
 
-
+        <service
+            android:name=".MyService"
+            android:enabled="true" />
     </application>
 
 </manifest>

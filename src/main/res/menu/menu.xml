@@ -19,4 +19,7 @@
         android:id="@+id/em"/>
     <item android:title="Services"
         android:id="@+id/serve"/>
+    <item android:title="sqlDb"
+        android:id="@+id/dbase"/>
+
 </menu>

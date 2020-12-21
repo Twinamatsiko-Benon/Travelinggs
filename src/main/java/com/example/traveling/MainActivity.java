@@ -50,6 +50,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.music:
                 startActivity(new Intent(this, activity1.class));
                 return true;
+            case R.id.dbase:
+                startActivity(new Intent(this, MySqlite.class));
+                return true;
+
             case R.id.Cfile:
                 startActivity(new Intent(this, activities.class));
                 return true;
