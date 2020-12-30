@@ -5,50 +5,68 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MySqlite">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+   android:layout_marginLeft="50dp"
+  android:textColor="@color/colorAccent"
+    android:fontFamily="sans-serif"
+    android:text="YOU CAN NOW STORE THIS DATA"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="100dp"
+    >
+
+    <TextView
+        android:id="@+id/n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
 
 
+        android:text="Name"
+        android:textSize="20dp" />
 
-        <TextView
-            android:id="@+id/n"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="50dp"
-            android:text="Name"
-            android:textSize="20dp" />
-
-        <EditText
+    <EditText
             android:id="@+id/namee"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="35dp"
-            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             android:hint="enterName" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="300dp">
+        <TextView
+            android:id="@+id/e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
+            android:text="Email"
+            android:textSize="20dp" />
 
 
         <EditText
             android:id="@+id/emi"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="35dp"
-            android:layout_marginTop="50dp"
-            android:hint="EnterEmail" />
+            android:layout_height="wrap_content"
 
-
-    <TextView
-        android:id="@+id/e"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-        android:text="Email"
-        android:textSize="20dp" />
-
+            android:hint="EnterEmail"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="store"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="500dp"
+        android:gravity="center"/>
 
 
 </RelativeLayout>

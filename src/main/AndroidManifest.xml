@@ -14,7 +14,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MySqlite"></activity>
+        <provider
+            android:name=".MyContentProvider"
+            android:authorities="com.demo.user.provider"
+            android:enabled="true"
+            android:exported="true"></provider>
+
+        <activity android:name=".Contents" />
+        <activity android:name=".MySqlite" />
         <activity android:name=".AnotherPage" />
         <activity android:name=".TheService" />
         <activity android:name=".recycler" />
@@ -38,6 +45,12 @@
         <service
             android:name=".MyService"
             android:enabled="true" />
+
+        <provider
+            android:name="com.example.traveling.MyContentProvider"
+            android:authorities="com.demo.user.provider"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>

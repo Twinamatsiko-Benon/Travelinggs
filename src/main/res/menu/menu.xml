@@ -21,5 +21,7 @@
         android:id="@+id/serve"/>
     <item android:title="sqlDb"
         android:id="@+id/dbase"/>
+    <item android:title="contents"
+        android:id="@+id/provider"/>
 
 </menu>

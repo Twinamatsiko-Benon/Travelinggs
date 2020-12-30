@@ -19,7 +19,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  {
     Button dial;
 
     @Override
@@ -56,6 +56,9 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.Cfile:
                 startActivity(new Intent(this, activities.class));
+                return true;
+            case R.id.provider:
+                startActivity(new Intent(this,Contents.class));
                 return true;
             case R.id.list:
                 startActivity(new Intent(this, listviewing.class));

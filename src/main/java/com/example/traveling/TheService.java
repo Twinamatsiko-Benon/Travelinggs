@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class TheService extends AppCompatActivity implements View.OnClickListener {
 
 
-    Button buttonStart, buttonStop,buttonNext;
+    Button buttonStart, buttonStop;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,11 +19,10 @@ public class TheService extends AppCompatActivity implements View.OnClickListene
 
         buttonStart = findViewById(R.id.buttonStart);
         buttonStop = findViewById(R.id.buttonStop);
-        buttonNext =  findViewById(R.id.buttonNext);
 
         buttonStart.setOnClickListener(this);
         buttonStop.setOnClickListener(this);
-        buttonNext.setOnClickListener(this);
+
 
 
     }
@@ -36,10 +35,7 @@ public class TheService extends AppCompatActivity implements View.OnClickListene
             case R.id.buttonStop:
                 stopService(new Intent(this, MyService.class));
                 break;
-            case R.id.buttonNext:
-                Intent intent=new Intent(this,AnotherPage.class);
-                startActivity(intent);
-                break;
+
         }
     }
 }
